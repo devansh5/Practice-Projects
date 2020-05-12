@@ -3,9 +3,9 @@
     
 </head>
 <body>
-            100 Days Of Code
-    <h4>
+    <h1>    100 Days Of Code  </h1>
+    <p>
         ..  From Basic to Advanced
-    </h4>
+    </p>
 </body>
 </html>
