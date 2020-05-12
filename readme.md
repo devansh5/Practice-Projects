@@ -3,7 +3,7 @@
     
 </head>
 <body>
-    <center><h1>Python Projects</h1></center>
+            100 Days Of Code
     <h4>
         ..  From Basic to Advanced
     </h4>
