@@ -18,3 +18,9 @@
           will be in the upper-left corner, the x-coordinates increase going right,
           and the y-coordinates increase going down.
           Copy the previous grid value, and write code that uses it to print the image
+                    ..OO.OO..
+                    .OOOOOOO.
+                    .OOOOOOO.
+                    ..OOOOO..
+                    ...OOO...
+                    ....O....
