@@ -1,4 +1,4 @@
-<h1>Character Picture Grid<h1>
+<h1>Character Picture Grid</h1>
           <p>Say you have a list of lists where each value in the inner lists is a one-character
           string, like this:<p>
  
