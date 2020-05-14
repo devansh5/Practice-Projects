@@ -24,5 +24,18 @@
                     ..OOOOO..
                     ...OOO...
                     ....O....
-<h4>Counting the character using the setdeault</h4>
-<p>Counting the character in sentence using dictionaries and setdefault</p>
+<h4>
+                
+                Counting the character using the setdeault
+</h4>
+<p>
+                Counting the character in sentence using dictionaries and setdefault
+</p>
+
+<h4>            
+                Tic-Tac-Toe Game using Python Dictionaries
+</h4>
+
+<p>
+                Used Dictionaries Exception handling to play the game
+</p>
