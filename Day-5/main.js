@@ -2,8 +2,11 @@ var form =document.getElementById('addForm');
 
 var itemlist=document.getElementById('items');
 
+// all the filter elements
 
+var filter =document.getElementById('filter')
 
+filter.addEventListener('keyup',searchElements);
 
 form.addEventListener('submit',addItem);
 
@@ -39,4 +42,21 @@ function removeItem(e){
         var li=e.target.parentElement;
         itemlist.removeChild(li);
     }
+}
+
+function searchElements(e){
+    var text=e.target.value.toLowerCase();
+    var items=itemlist.getElementsByTagName('li');
+
+    // conver collection to an array
+
+    Array.from(items).forEach(function(item){
+        var itemName=item.firstChild.textContent;
+        if(itemName.toLowerCase().indexOf(text)!=-1){
+            item.style.display="block";
+        }else{
+            item.style.display="none";
+        }
+    })
+    
 }
