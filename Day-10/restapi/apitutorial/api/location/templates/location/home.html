@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello Api</title>
+</head>
+<body>
+    
+    <h1>Corona tracker</h1>
+
+    {% for i in trans %}
+
+    <li><strong>{{i.state}}</strong>
+        {% for j in i.districtData %}
+            <li>
+                <li>{{j.name}} - {{j.confirmed}}</li>
+                <li>{{j.zone}}</li>
+            </li>
+
+        {% endfor %}
+    </li>
+
+
+    {% endfor %}
+   
+</body>
+
+</html>
